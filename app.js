@@ -48,7 +48,7 @@ This work is published from Taiwan.
   }
   require('zappajs')(port, host, options, function(){
     this.KEY = key;
-    this.BASEPATH = basepath;
+    this.BASEPATH = (basepath + "/") + '#apps/ethercal';
     this.POLLING = polling;
     this.CORS = cors;
     this.EXPIRE = +expire;

@@ -34,7 +34,7 @@ options.io = { origin: '*' } if cors
 
 <- (require \zappajs) port, host, options
 @KEY = key
-@BASEPATH = basepath
+@BASEPATH = "#basepath/" + '#apps/ethercal'
 @POLLING = polling
 @CORS = cors
 @EXPIRE = +expire
